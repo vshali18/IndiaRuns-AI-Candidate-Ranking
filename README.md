@@ -1,1 +1,0 @@
-# IndiaRuns-AI-Candidate-Ranking
