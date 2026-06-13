@@ -23,3 +23,19 @@ Top 100 ranked candidates in CSV format.
 
 ## Results
 Submission successfully validated using the official validator.
+
+## Web Application
+
+This project includes a Streamlit-based web application for candidate ranking.
+
+Features:
+- Paste Job Description
+- Rank Candidates
+- Display Top 10 Candidates
+- Score candidates based on skills, experience, and title relevance
+
+Run locally:
+
+pip install -r requirements.txt
+
+streamlit run app.py
