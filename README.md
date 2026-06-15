@@ -1,41 +1,43 @@
-# AI-Powered Candidate Ranking System
+# TalentIQ AI – AI Powered Candidate Ranking System
 
-## Problem Statement
-Traditional recruitment systems rely heavily on keyword matching, often missing highly relevant candidates.
+## Overview
 
-## Solution
-This project ranks candidates using:
-- Experience Score
-- AI Skills Score
-- Job Title Relevance
-- Candidate Ranking Logic
+TalentIQ AI is an AI-powered candidate discovery and ranking platform that helps recruiters identify the most suitable candidates based on job descriptions, skills, experience, and match scores.
 
-## Dataset
-100,000 candidate profiles provided by the Redrob AI Challenge.
+## Features
 
-## Output
-Top 100 ranked candidates in CSV format.
+* Candidate Ranking Engine
+* Candidate Intelligence Dashboard
+* Explainability Center
+* Recruitment Analytics Dashboard
+* CSV Export of Ranked Candidates
+* Dynamic Top-N Candidate Selection
 
-## Technologies
-- Python
-- Pandas
-- JSON
+## Tech Stack
 
-## Results
-Submission successfully validated using the official validator.
+* Python
+* Streamlit
+* Pandas
+* NumPy
 
-## Web Application
+## How to Run
 
-This project includes a Streamlit-based web application for candidate ranking.
-
-Features:
-- Paste Job Description
-- Rank Candidates
-- Display Top 10 Candidates
-- Score candidates based on skills, experience, and title relevance
-
-Run locally:
+Install dependencies:
 
 pip install -r requirements.txt
 
+Run application:
+
 streamlit run app.py
+
+## Project Structure
+
+* app.py
+* requirements.txt
+* submission.csv
+* rank_candidates.py
+* improved_ranker.py
+
+## Output
+
+The system ranks candidates and generates downloadable candidate ranking reports.
